@@ -1,0 +1,412 @@
+{
+  "QRCodes": [
+  {
+    "Name": "Test",
+    "Base64image":"@{first(variables('QRCodes'))}",
+    "Floor_Number":"@{first(variables('Floor_Number_Array'))}",
+    "Structural_Condition":"@{first(variables('Structural_Condition_Array'))}",
+    "Element_ID":"@{first(variables('Element_ID_Array'))}",
+    "Remarks":"@{first(variables('Array_Remarks'))}"
+
+  },
+  {
+    "Name": "Test",
+    "Base64image":"@{first(skip(variables('QRCodes'),1))}",
+    "Floor_Number":"@{first(skip(variables('Floor_Number_Array'),1))}",
+    "Structural_Condition":"@{first(skip(variables('Structural_Condition_Array'),1))}",
+    "Element_ID":"@{first(skip(variables('Element_ID_Array'),1))}",
+    "Remarks":"@{first(skip(variables('Array_Remarks'),1))}"
+  },
+  {
+    "Name": "Test",
+    "Base64image":"@{first(skip(variables('QRCodes'),2))}",
+    "Floor_Number":"@{first(skip(variables('Floor_Number_Array'),2))}",
+    "Structural_Condition":"@{first(skip(variables('Structural_Condition_Array'),2))}",
+    "Element_ID":"@{first(skip(variables('Element_ID_Array'),2))}",
+    "Remarks":"@{first(skip(variables('Array_Remarks'),2))}"
+  },
+  {
+    "Name": "Test",
+    "Base64image":"@{first(skip(variables('QRCodes'),3))}",
+    "Floor_Number":"@{first(skip(variables('Floor_Number_Array'),3))}",
+    "Structural_Condition":"@{first(skip(variables('Structural_Condition_Array'),3))}",
+    "Element_ID":"@{first(skip(variables('Element_ID_Array'),3))}",
+    "Remarks":"@{first(skip(variables('Array_Remarks'),3))}"
+  },
+{
+    "Name": "Test",
+    "Base64image":"@{first(skip(variables('QRCodes'),4))}",
+    "Floor_Number":"@{first(skip(variables('Floor_Number_Array'),4))}",
+    "Structural_Condition":"@{first(skip(variables('Structural_Condition_Array'),4))}",
+    "Element_ID":"@{first(skip(variables('Element_ID_Array'),4))}",
+    "Remarks":"@{first(skip(variables('Array_Remarks'),4))}"
+  },
+{
+    "Name": "Test",
+    "Base64image":"@{first(skip(variables('QRCodes'),5))}",
+    "Floor_Number":"@{first(skip(variables('Floor_Number_Array'),5))}",
+    "Structural_Condition":"@{first(skip(variables('Structural_Condition_Array'),5))}",
+    "Element_ID":"@{first(skip(variables('Element_ID_Array'),5))}",
+    "Remarks":"@{first(skip(variables('Array_Remarks'),5))}"
+  },
+{
+    "Name": "Test",
+    "Base64image":"@{first(skip(variables('QRCodes'),6))}",
+    "Floor_Number":"@{first(skip(variables('Floor_Number_Array'),6))}",
+    "Structural_Condition":"@{first(skip(variables('Structural_Condition_Array'),6))}",
+    "Element_ID":"@{first(skip(variables('Element_ID_Array'),6))}",
+    "Remarks":"@{first(skip(variables('Array_Remarks'),6))}"
+  },
+{
+    "Name": "Test",
+    "Base64image":"@{first(skip(variables('QRCodes'),7))}",
+    "Floor_Number":"@{first(skip(variables('Floor_Number_Array'),7))}",
+    "Structural_Condition":"@{first(skip(variables('Structural_Condition_Array'),7))}",
+    "Element_ID":"@{first(skip(variables('Element_ID_Array'),7))}",
+    "Remarks":"@{first(skip(variables('Array_Remarks'),7))}"
+  },
+{
+    "Name": "Test",
+    "Base64image":"@{first(skip(variables('QRCodes'),8))}",
+    "Floor_Number":"@{first(skip(variables('Floor_Number_Array'),8))}",
+    "Structural_Condition":"@{first(skip(variables('Structural_Condition_Array'),8))}",
+    "Element_ID":"@{first(skip(variables('Element_ID_Array'),8))}",
+    "Remarks":"@{first(skip(variables('Array_Remarks'),8))}"
+  },
+{
+    "Name": "Test",
+    "Base64image":"@{first(skip(variables('QRCodes'),9))}",
+    "Floor_Number":"@{first(skip(variables('Floor_Number_Array'),9))}",
+    "Structural_Condition":"@{first(skip(variables('Structural_Condition_Array'),9))}",
+    "Element_ID":"@{first(skip(variables('Element_ID_Array'),9))}",
+    "Remarks":"@{first(skip(variables('Array_Remarks'),9))}"
+  },
+{
+    "Name": "Test",
+    "Base64image":"@{first(skip(variables('QRCodes'),10))}",
+    "Floor_Number":"@{first(skip(variables('Floor_Number_Array'),10))}",
+    "Structural_Condition":"@{first(skip(variables('Structural_Condition_Array'),10))}",
+    "Element_ID":"@{first(skip(variables('Element_ID_Array'),10))}",
+    "Remarks":"@{first(skip(variables('Array_Remarks'),10))}"
+  },
+{
+    "Name": "Test",
+    "Base64image":"@{first(skip(variables('QRCodes'),11))}",
+    "Floor_Number":"@{first(skip(variables('Floor_Number_Array'),11))}",
+    "Structural_Condition":"@{first(skip(variables('Structural_Condition_Array'),11))}",
+    "Element_ID":"@{first(skip(variables('Element_ID_Array'),11))}",
+    "Remarks":"@{first(skip(variables('Array_Remarks'),11))}"
+  },
+{
+    "Name": "Test",
+    "Base64image":"@{first(skip(variables('QRCodes'),12))}",
+    "Floor_Number":"@{first(skip(variables('Floor_Number_Array'), 12))}",
+    "Structural_Condition":"@{first(skip(variables('Structural_Condition_Array'), 12))}",
+    "Element_ID":"@{first(skip(variables('Element_ID_Array'), 12))}",
+    "Remarks":"@{first(skip(variables('Array_Remarks'), 12))}"
+  },
+{
+    "Name": "Test",
+    "Base64image":"@{first(skip(variables('QRCodes'), 13))}",
+    "Floor_Number":"@{first(skip(variables('Floor_Number_Array'), 13))}",
+    "Structural_Condition":"@{first(skip(variables('Structural_Condition_Array'), 13))}",
+    "Element_ID":"@{first(skip(variables('Element_ID_Array'), 13))}",
+    "Remarks":"@{first(skip(variables('Array_Remarks'), 13))}"
+  },
+{
+    "Name": "Test",
+    "Base64image":"@{first(skip(variables('QRCodes'), 14))}",
+    "Floor_Number":"@{first(skip(variables('Floor_Number_Array'), 14))}",
+    "Structural_Condition":"@{first(skip(variables('Structural_Condition_Array'), 14))}",
+    "Element_ID":"@{first(skip(variables('Element_ID_Array'), 14))}",
+    "Remarks":"@{first(skip(variables('Array_Remarks'), 14))}"
+  },
+{
+    "Name": "Test",
+    "Base64image":"@{first(skip(variables('QRCodes'), 15))}",
+    "Floor_Number":"@{first(skip(variables('Floor_Number_Array'), 15))}",
+    "Structural_Condition":"@{first(skip(variables('Structural_Condition_Array'), 15))}",
+    "Element_ID":"@{first(skip(variables('Element_ID_Array'), 15))}",
+    "Remarks":"@{first(skip(variables('Array_Remarks'), 15))}"
+  },
+{
+    "Name": "Test",
+    "Base64image":"@{first(skip(variables('QRCodes'), 16))}",
+    "Floor_Number":"@{first(skip(variables('Floor_Number_Array'), 16))}",
+    "Structural_Condition":"@{first(skip(variables('Structural_Condition_Array'), 16))}",
+    "Element_ID":"@{first(skip(variables('Element_ID_Array'), 16))}",
+    "Remarks":"@{first(skip(variables('Array_Remarks'), 16))}"
+  },
+{
+    "Name": "Test",
+    "Base64image":"@{first(skip(variables('QRCodes'), 17))}",
+    "Floor_Number":"@{first(skip(variables('Floor_Number_Array'), 17))}",
+    "Structural_Condition":"@{first(skip(variables('Structural_Condition_Array'), 17))}",
+    "Element_ID":"@{first(skip(variables('Element_ID_Array'), 17))}",
+    "Remarks":"@{first(skip(variables('Array_Remarks'), 17))}"
+  },
+{
+    "Name": "Test",
+    "Base64image":"@{first(skip(variables('QRCodes'), 18))}",
+    "Floor_Number":"@{first(skip(variables('Floor_Number_Array'), 18))}",
+    "Structural_Condition":"@{first(skip(variables('Structural_Condition_Array'), 18))}",
+    "Element_ID":"@{first(skip(variables('Element_ID_Array'), 18))}",
+    "Remarks":"@{first(skip(variables('Array_Remarks'), 18))}"
+  },
+{
+    "Name": "Test",
+    "Base64image":"@{first(skip(variables('QRCodes'), 19))}",
+    "Floor_Number":"@{first(skip(variables('Floor_Number_Array'), 19))}",
+    "Structural_Condition":"@{first(skip(variables('Structural_Condition_Array'), 19))}",
+    "Element_ID":"@{first(skip(variables('Element_ID_Array'), 19))}",
+    "Remarks":"@{first(skip(variables('Array_Remarks'), 19))}"
+  },
+{
+    "Name": "Test",
+    "Base64image":"@{first(skip(variables('QRCodes'),20))}",
+    "Floor_Number":"@{first(skip(variables('Floor_Number_Array'),20))}",
+    "Structural_Condition":"@{first(skip(variables('Structural_Condition_Array'),20))}",
+    "Element_ID":"@{first(skip(variables('Element_ID_Array'),20))}",
+    "Remarks":"@{first(skip(variables('Array_Remarks'),20))}"
+  },
+{
+    "Name": "Test",
+    "Base64image":"@{first(skip(variables('QRCodes'),21))}",
+    "Floor_Number":"@{first(skip(variables('Floor_Number_Array'),21))}",
+    "Structural_Condition":"@{first(skip(variables('Structural_Condition_Array'),21))}",
+    "Element_ID":"@{first(skip(variables('Element_ID_Array'),21))}",
+    "Remarks":"@{first(skip(variables('Array_Remarks'),21))}"
+  },
+{
+    "Name": "Test",
+    "Base64image":"@{first(skip(variables('QRCodes'),22))}",
+    "Floor_Number":"@{first(skip(variables('Floor_Number_Array'),22))}",
+    "Structural_Condition":"@{first(skip(variables('Structural_Condition_Array'),22))}",
+    "Element_ID":"@{first(skip(variables('Element_ID_Array'),22))}",
+    "Remarks":"@{first(skip(variables('Array_Remarks'),22))}"
+  },
+{
+    "Name": "Test",
+    "Base64image":"@{first(skip(variables('QRCodes'),23))}",
+    "Floor_Number":"@{first(skip(variables('Floor_Number_Array'),23))}",
+    "Structural_Condition":"@{first(skip(variables('Structural_Condition_Array'),23))}",
+    "Element_ID":"@{first(skip(variables('Element_ID_Array'),23))}",
+    "Remarks":"@{first(skip(variables('Array_Remarks'),23))}"
+  },
+{
+    "Name": "Test",
+    "Base64image":"@{first(skip(variables('QRCodes'),24))}",
+    "Floor_Number":"@{first(skip(variables('Floor_Number_Array'),24))}",
+    "Structural_Condition":"@{first(skip(variables('Structural_Condition_Array'),24))}",
+    "Element_ID":"@{first(skip(variables('Element_ID_Array'),24))}",
+    "Remarks":"@{first(skip(variables('Array_Remarks'),24))}"
+  },
+{
+    "Name": "Test",
+    "Base64image":"@{first(skip(variables('QRCodes'),25))}",
+    "Floor_Number":"@{first(skip(variables('Floor_Number_Array'),25))}",
+    "Structural_Condition":"@{first(skip(variables('Structural_Condition_Array'),25))}",
+    "Element_ID":"@{first(skip(variables('Element_ID_Array'),25))}",
+    "Remarks":"@{first(skip(variables('Array_Remarks'),25))}"
+  },
+{
+    "Name": "Test",
+    "Base64image":"@{first(skip(variables('QRCodes'),26))}",
+    "Floor_Number":"@{first(skip(variables('Floor_Number_Array'),26))}",
+    "Structural_Condition":"@{first(skip(variables('Structural_Condition_Array'),26))}",
+    "Element_ID":"@{first(skip(variables('Element_ID_Array'),26))}",
+    "Remarks":"@{first(skip(variables('Array_Remarks'),26))}"
+  },
+{
+    "Name": "Test",
+    "Base64image":"@{first(skip(variables('QRCodes'),27))}",
+    "Floor_Number":"@{first(skip(variables('Floor_Number_Array'),27))}",
+    "Structural_Condition":"@{first(skip(variables('Structural_Condition_Array'),27))}",
+    "Element_ID":"@{first(skip(variables('Element_ID_Array'),27))}",
+    "Remarks":"@{first(skip(variables('Array_Remarks'),27))}"
+  },
+{
+    "Name": "Test",
+    "Base64image":"@{first(skip(variables('QRCodes'),28))}",
+    "Floor_Number":"@{first(skip(variables('Floor_Number_Array'),28))}",
+    "Structural_Condition":"@{first(skip(variables('Structural_Condition_Array'),28))}",
+    "Element_ID":"@{first(skip(variables('Element_ID_Array'),28))}",
+    "Remarks":"@{first(skip(variables('Array_Remarks'),28))}"
+  },
+{
+    "Name": "Test",
+    "Base64image":"@{first(skip(variables('QRCodes'),29))}",
+    "Floor_Number":"@{first(skip(variables('Floor_Number_Array'),29))}",
+    "Structural_Condition":"@{first(skip(variables('Structural_Condition_Array'),29))}",
+    "Element_ID":"@{first(skip(variables('Element_ID_Array'),29))}",
+    "Remarks":"@{first(skip(variables('Array_Remarks'),29))}"
+  },
+{
+    "Name": "Test",
+    "Base64image":"@{first(skip(variables('QRCodes'),30))}",
+    "Floor_Number":"@{first(skip(variables('Floor_Number_Array'),30))}",
+    "Structural_Condition":"@{first(skip(variables('Structural_Condition_Array'),30))}",
+    "Element_ID":"@{first(skip(variables('Element_ID_Array'),30))}",
+    "Remarks":"@{first(skip(variables('Array_Remarks'),30))}"
+  },
+{
+    "Name": "Test",
+    "Base64image":"@{first(skip(variables('QRCodes'),31))}",
+    "Floor_Number":"@{first(skip(variables('Floor_Number_Array'),31))}",
+    "Structural_Condition":"@{first(skip(variables('Structural_Condition_Array'),31))}",
+    "Element_ID":"@{first(skip(variables('Element_ID_Array'),31))}",
+    "Remarks":"@{first(skip(variables('Array_Remarks'),31))}"
+  },
+{
+    "Name": "Test",
+    "Base64image":"@{first(skip(variables('QRCodes'),32))}",
+    "Floor_Number":"@{first(skip(variables('Floor_Number_Array'),32))}",
+    "Structural_Condition":"@{first(skip(variables('Structural_Condition_Array'),32))}",
+    "Element_ID":"@{first(skip(variables('Element_ID_Array'),32))}",
+    "Remarks":"@{first(skip(variables('Array_Remarks'),32))}"
+  },
+{
+    "Name": "Test",
+    "Base64image":"@{first(skip(variables('QRCodes'),33))}",
+    "Floor_Number":"@{first(skip(variables('Floor_Number_Array'),33))}",
+    "Structural_Condition":"@{first(skip(variables('Structural_Condition_Array'),33))}",
+    "Element_ID":"@{first(skip(variables('Element_ID_Array'),33))}",
+    "Remarks":"@{first(skip(variables('Array_Remarks'),33))}"
+  },
+{
+    "Name": "Test",
+    "Base64image":"@{first(skip(variables('QRCodes'),34))}",
+    "Floor_Number":"@{first(skip(variables('Floor_Number_Array'),34))}",
+    "Structural_Condition":"@{first(skip(variables('Structural_Condition_Array'),34))}",
+    "Element_ID":"@{first(skip(variables('Element_ID_Array'),34))}",
+    "Remarks":"@{first(skip(variables('Array_Remarks'),34))}"
+  },
+{
+    "Name": "Test",
+    "Base64image":"@{first(skip(variables('QRCodes'),35))}",
+    "Floor_Number":"@{first(skip(variables('Floor_Number_Array'),35))}",
+    "Structural_Condition":"@{first(skip(variables('Structural_Condition_Array'),35))}",
+    "Element_ID":"@{first(skip(variables('Element_ID_Array'),35))}",
+    "Remarks":"@{first(skip(variables('Array_Remarks'),35))}"
+  },
+{
+    "Name": "Test",
+    "Base64image":"@{first(skip(variables('QRCodes'),36))}",
+    "Floor_Number":"@{first(skip(variables('Floor_Number_Array'),36))}",
+    "Structural_Condition":"@{first(skip(variables('Structural_Condition_Array'),36))}",
+    "Element_ID":"@{first(skip(variables('Element_ID_Array'),36))}",
+    "Remarks":"@{first(skip(variables('Array_Remarks'),36))}"
+  },
+{
+    "Name": "Test",
+    "Base64image":"@{first(skip(variables('QRCodes'),37))}",
+    "Floor_Number":"@{first(skip(variables('Floor_Number_Array'),37))}",
+    "Structural_Condition":"@{first(skip(variables('Structural_Condition_Array'),37))}",
+    "Element_ID":"@{first(skip(variables('Element_ID_Array'),37))}",
+    "Remarks":"@{first(skip(variables('Array_Remarks'),37))}"
+  },
+{
+    "Name": "Test",
+    "Base64image":"@{first(skip(variables('QRCodes'),38))}",
+    "Floor_Number":"@{first(skip(variables('Floor_Number_Array'),38))}",
+    "Structural_Condition":"@{first(skip(variables('Structural_Condition_Array'),38))}",
+    "Element_ID":"@{first(skip(variables('Element_ID_Array'),38))}",
+    "Remarks":"@{first(skip(variables('Array_Remarks'),38))}"
+  },
+{
+    "Name": "Test",
+    "Base64image":"@{first(skip(variables('QRCodes'),39))}",
+    "Floor_Number":"@{first(skip(variables('Floor_Number_Array'),39))}",
+    "Structural_Condition":"@{first(skip(variables('Structural_Condition_Array'),39))}",
+    "Element_ID":"@{first(skip(variables('Element_ID_Array'),39))}",
+    "Remarks":"@{first(skip(variables('Array_Remarks'),39))}"
+  },
+{
+    "Name": "Test",
+    "Base64image":"@{first(skip(variables('QRCodes'),40))}",
+    "Floor_Number":"@{first(skip(variables('Floor_Number_Array'),40))}",
+    "Structural_Condition":"@{first(skip(variables('Structural_Condition_Array'),40))}",
+    "Element_ID":"@{first(skip(variables('Element_ID_Array'),40))}",
+    "Remarks":"@{first(skip(variables('Array_Remarks'),40))}"
+  },
+{
+    "Name": "Test",
+    "Base64image":"@{first(skip(variables('QRCodes'),41))}",
+    "Floor_Number":"@{first(skip(variables('Floor_Number_Array'),41))}",
+    "Structural_Condition":"@{first(skip(variables('Structural_Condition_Array'),41))}",
+    "Element_ID":"@{first(skip(variables('Element_ID_Array'),41))}",
+    "Remarks":"@{first(skip(variables('Array_Remarks'),41))}"
+  },
+{
+    "Name": "Test",
+    "Base64image":"@{first(skip(variables('QRCodes'),42))}",
+    "Floor_Number":"@{first(skip(variables('Floor_Number_Array'),42))}",
+    "Structural_Condition":"@{first(skip(variables('Structural_Condition_Array'),42))}",
+    "Element_ID":"@{first(skip(variables('Element_ID_Array'),42))}",
+    "Remarks":"@{first(skip(variables('Array_Remarks'),42))}"
+  },
+{
+    "Name": "Test",
+    "Base64image":"@{first(skip(variables('QRCodes'),43))}",
+    "Floor_Number":"@{first(skip(variables('Floor_Number_Array'),43))}",
+    "Structural_Condition":"@{first(skip(variables('Structural_Condition_Array'),43))}",
+    "Element_ID":"@{first(skip(variables('Element_ID_Array'),43))}",
+    "Remarks":"@{first(skip(variables('Array_Remarks'),43))}"
+  },
+{
+    "Name": "Test",
+    "Base64image":"@{first(skip(variables('QRCodes'),44))}",
+    "Floor_Number":"@{first(skip(variables('Floor_Number_Array'),44))}",
+    "Structural_Condition":"@{first(skip(variables('Structural_Condition_Array'),44))}",
+    "Element_ID":"@{first(skip(variables('Element_ID_Array'),44))}",
+    "Remarks":"@{first(skip(variables('Array_Remarks'),44))}"
+  },
+{
+    "Name": "Test",
+    "Base64image":"@{first(skip(variables('QRCodes'),45))}",
+    "Floor_Number":"@{first(skip(variables('Floor_Number_Array'),45))}",
+    "Structural_Condition":"@{first(skip(variables('Structural_Condition_Array'),45))}",
+    "Element_ID":"@{first(skip(variables('Element_ID_Array'),45))}",
+    "Remarks":"@{first(skip(variables('Array_Remarks'),45))}"
+  },
+{
+    "Name": "Test",
+    "Base64image":"@{first(skip(variables('QRCodes'),46))}",
+    "Floor_Number":"@{first(skip(variables('Floor_Number_Array'),46))}",
+    "Structural_Condition":"@{first(skip(variables('Structural_Condition_Array'),46))}",
+    "Element_ID":"@{first(skip(variables('Element_ID_Array'),46))}",
+    "Remarks":"@{first(skip(variables('Array_Remarks'),46))}"
+  },
+{
+    "Name": "Test",
+    "Base64image":"@{first(skip(variables('QRCodes'),47))}",
+    "Floor_Number":"@{first(skip(variables('Floor_Number_Array'),47))}",
+    "Structural_Condition":"@{first(skip(variables('Structural_Condition_Array'),47))}",
+    "Element_ID":"@{first(skip(variables('Element_ID_Array'),47))}",
+    "Remarks":"@{first(skip(variables('Array_Remarks'),47))}"
+  },
+{
+    "Name": "Test",
+    "Base64image":"@{first(skip(variables('QRCodes'),48))}",
+    "Floor_Number":"@{first(skip(variables('Floor_Number_Array'),48))}",
+    "Structural_Condition":"@{first(skip(variables('Structural_Condition_Array'),48))}",
+    "Element_ID":"@{first(skip(variables('Element_ID_Array'),48))}",
+    "Remarks":"@{first(skip(variables('Array_Remarks'),48))}"
+  },
+{
+    "Name": "Test",
+    "Base64image":"@{first(skip(variables('QRCodes'),49))}",
+    "Floor_Number":"@{first(skip(variables('Floor_Number_Array'),49))}",
+    "Structural_Condition":"@{first(skip(variables('Structural_Condition_Array'),49))}",
+    "Element_ID":"@{first(skip(variables('Element_ID_Array'),49))}",
+    "Remarks":"@{first(skip(variables('Array_Remarks'),49))}"
+  },
+{
+    "Name": "Test",
+    "Base64image":"@{first(skip(variables('QRCodes'),50))}",
+    "Floor_Number":"@{first(skip(variables('Floor_Number_Array'),50))}",
+    "Structural_Condition":"@{first(skip(variables('Structural_Condition_Array'),50))}",
+    "Element_ID":"@{first(skip(variables('Element_ID_Array'),50))}",
+    "Remarks":"@{first(skip(variables('Array_Remarks'),50))}"
+  }]
+}
